@@ -8,4 +8,9 @@ public class DatabaseProductService implements ProductService {
     public Product getProductDetails(Long Id) {
         return null;
     }
+
+    @Override
+    public Product createProduct(String productName, String productDescription, Double productPrice, String productImage, String productCategory, String productTitle) {
+        return null;
+    }
 }
